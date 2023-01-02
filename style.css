@@ -54,6 +54,7 @@ h3 {
   text-align: center;
   margin-top: 25px;
 }
+/* styling */
 
 .single-testimonial-item {
   position: relative;
@@ -61,32 +62,13 @@ h3 {
   margin: 2px;
   padding: 20px;
   font-style: italic;
-  padding-left: 85px;
+  border: 3px solid gainsboro;
 }
-
-.single-testimonial-item:before {
-  font-family: "Font Awesome 5 Free";
-  content: "\f10e";
-  font-weight: 900;
-  position: absolute;
-  left: 20px;
-  top: 50%;
-  font-size: 20px;
-  color: #6aaf08;
-  line-height: 30px;
-  margin-top: -15px;
+img {
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 15px;
 }
-
-.single-testimonial-item:after {
-  background: #ddd;
-  content: "";
-  height: 70%;
-  left: 60px;
-  position: absolute;
-  top: 10%;
-  width: 1px;
-}
-
 .single-testimonial-item h3 {
   font-size: 20px;
   font-style: normal;
